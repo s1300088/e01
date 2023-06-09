@@ -1,3 +1,7 @@
+print("What is your name?")
+name = input()
+print("Hello, "+ name + "!")
+
 import random
 
 a = random.randint(1, 6)
@@ -10,6 +14,6 @@ print("Die 2: ", b)
 
 print("Total value: ", (a+b))
 if a + b >= 7:
-    print("You win")
+    print(name, "win!")
 else:
-    print("You lose")
+    print(name, "lose!")
